@@ -3,6 +3,8 @@ import logging
 import threading
 import time
 
+#reference https://www.pythoncentral.io/how-to-create-a-thread-in-python/
+# https://www.tutorialspoint.com/python/python_multithreading.htm 
 
 class MyThread(threading.Thread):
     def __init__(self, group=None, target=None, name=None,
